@@ -1,0 +1,10 @@
+@layer reset, default, theme, component, debug;
+
+@layer reset{
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+}

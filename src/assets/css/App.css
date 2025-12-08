@@ -1,0 +1,56 @@
+@layer default {
+
+  *{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+}
+
+@layer themes { /*Needs further work on choosing color palette*/
+  :root {
+    --base-bg: #f5f6f7;
+    --structure-bg: #16262e;
+    --structure-text: #2e4756;
+    --structure-title: #476d85;
+    --structure-accent: #78a9ba;
+    --content-bg: #e2e8dd;
+    --content-text: #95a3a4;
+    --content-title: #b7d1da;
+    --content-accent: #78a9ba;
+
+    --enfasis-color-1: #16262e;
+    --enfasis-color-2: #2e4756;
+    --enfasis-color-3: #476d85;
+  }
+
+  /**/
+  .dark {
+    --base-bg: #373737;
+    --primary-section-bg: #6a2424;
+    --primary-section-text: #f5f7f3;
+    --primary-section-title: #f5f7f3;
+    --primary-section-accent: #aa2b2b;
+    --secondary-section-bg: #2b2b2b;
+    --secondary-section-text: #95a3a4;
+    --secondary-section-title: #484a4a;
+    --secondary-section-accent: #3a1717;
+
+    --task-color-1: #3a1717;
+    --task-color-2: #6a2424;
+    --task-color-3: #aa2b2b;
+  }
+}
+
+@layer component {
+  .App {
+    min-height: 100vh;
+    max-width: 100vw;
+
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+
+    background-color: var(--base-bg);
+  }
+}
