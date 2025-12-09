@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../structure/Header";
 
-import "./../../assets/css/Contact.css"
+import "./../../assets/css/Home.css"
 
-function Contact (){
+function Home (){
 
     return(
 
         <>
             <Header />
             
-            You are in Contact!
+            You are in Home!
 
         </>
 
@@ -18,4 +18,4 @@ function Contact (){
 
 }
 
-export default Contact;
+export default Home;

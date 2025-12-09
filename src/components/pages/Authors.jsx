@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../structure/Header";
 
-import "./../../assets/css/Contact.css"
+import "./../../assets/css/Authors.css"
 
-function Contact (){
+function Authors (){
 
     return(
 
         <>
             <Header />
             
-            You are in Contact!
+            You are in Authors!
 
         </>
 
@@ -18,4 +18,4 @@ function Contact (){
 
 }
 
-export default Contact;
+export default Authors;
