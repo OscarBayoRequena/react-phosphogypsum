@@ -1,0 +1,16 @@
+@layer component {
+
+    header {
+        width: 100%;
+        height: fit-content;
+
+        padding: 10px 30px;
+
+        display: flex;
+        align-content: center;
+
+        background-color: var(--structure-bg);
+    }
+
+
+}

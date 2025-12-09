@@ -1,12 +1,14 @@
 import React from "react";
 
+import "./../../assets/css/Logo.css"
+
 function Logo (){
 
     return(
 
-        <div>
+        <div className="logo">
 
-            Foo
+            fosfoyesos<span>.info</span> 
 
         </div>
 

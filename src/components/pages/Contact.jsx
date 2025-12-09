@@ -8,6 +8,7 @@ function Contact ({lang}){
         <>
             <Header />
             
+            Sample text
 
         </>
 
