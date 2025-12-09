@@ -1,14 +1,18 @@
 @layer component {
 
     .logo {
-        width: 30%;
+        width: 25%;
 
         padding: 0px 30px;
 
+        text-align:center;
         font-weight: 600;
         font-size: 3em;
         color: var(--structure-title);
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
     }
 
