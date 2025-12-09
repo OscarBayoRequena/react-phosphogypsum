@@ -6,7 +6,7 @@ function Contact ({lang}){
     return(
 
         <>
-            <Header lang={lang} />
+            <Header />
             
 
         </>

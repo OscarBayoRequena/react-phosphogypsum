@@ -1,6 +1,6 @@
 import React from "react";
 
-function Logo ({lang}){
+function Logo (){
 
     return(
 

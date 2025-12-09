@@ -4,14 +4,14 @@ import Logo from "./Logo.jsx"
 import Navigation from "./Navigation.jsx"
 
 
-function Header ({lang}){
+function Header (){
 
     return(
 
         <header>
 
-            <Logo lang={lang} />
-            <Navigation lang={lang} />
+            <Logo />
+            <Navigation />
            {/*  
            Future immplementations
 
