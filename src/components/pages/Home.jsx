@@ -33,16 +33,17 @@ function Home (){
                 <h1>Current state</h1>
                     <h2>Restored zones</h2>
                     <h2>Management</h2>
+                        <h3>Cases in other places</h3>
+                        <h3>Case of Huelva</h3>
 
                 <h1>Longterm solutions</h1>
-                    <h2>Can phosphogypsum be recycled and valorized?</h2>
-                        <h3>Phosphogypsum use cases</h3>
-                        <h3>Phosphogypsum based companies</h3>
-                            <h4>Prayon</h4>
-                            <h4>CapturaCO2</h4>
-                                <h5>Patents</h5>
-                                <h5>Pilot plants</h5>
-                        <h3 id="sample">University of Huelva studies</h3>
+                        <h2>Phosphogypsum use cases</h2>
+                        <h2>Phosphogypsum based companies</h2>
+                            <h3>Prayon</h3>
+                            <h3>CapturaCO2</h3>
+                                <h4>Patents</h4>
+                                <h4>Pilot plants</h4>
+                        <h2 id="sample">University of Huelva studies</h2>
 
                 {/* 
                 Logo  X

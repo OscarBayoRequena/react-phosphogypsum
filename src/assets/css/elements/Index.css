@@ -1,0 +1,11 @@
+@layer component {
+
+    .index-anchor{
+        display: block;
+    }
+
+    .subsection{
+        padding-left: 1em;
+    }
+
+}
