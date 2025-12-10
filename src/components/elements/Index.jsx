@@ -100,14 +100,14 @@ function Index() {
   function renderNode(node) {
     if (!node.contents)
       return (
-        <a className="index-anchor" href={node.sectionId}>
+        <a className="index-anchor" href={"#"+node.sectionId}>
           {node.sectionTitle}
         </a>
       );
 
     return (
       <>
-        <a className="index-anchor" href={node.sectionId}>
+        <a className="index-anchor" href={"#"+node.sectionId}>
           {node.sectionTitle}
         </a>
         {React.createElement(

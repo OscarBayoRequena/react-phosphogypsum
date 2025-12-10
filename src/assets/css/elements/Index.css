@@ -1,11 +1,36 @@
 @layer component {
 
+    .index{
+
+        display: flex;
+        flex-flow: column;
+
+        margin: 1em 0;
+        padding: 1.5em;
+
+        background-color: var(--content-bg);
+        box-shadow: -1px -1px 10px 2px var(--content-title-3);
+        border-radius: 1.5em;
+
+    }
+
     .index-anchor{
-        display: block;
+        display: inline;
+
+        font-size: larger;
+        font-weight: bold;
+        color: var(--content-title-2);
+        text-decoration: none;
+
     }
 
     .subsection{
-        padding-left: 1em;
+        padding-left: 1.5em;
+
+        display: flex;
+        flex-flow: column;
     }
+
+    
 
 }
