@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./../../assets/css/Logo.css"
+import "./../../assets/css/structure/Logo.css"
 
 function Logo (){
 

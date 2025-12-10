@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../structure/Header";
 import Footer from "../structure/Footer";
 
-import "./../../assets/css/Authors.css"
+import "./../../assets/css/pages/Authors.css"
 
 function Authors (){
 

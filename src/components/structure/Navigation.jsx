@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 
-import "./../../assets/css/Navigation.css"
+import "./../../assets/css/structure/Navigation.css"
 
 function Navigation (){
 

@@ -3,7 +3,7 @@ import React from "react";
 import Logo from "./Logo.jsx"
 import Navigation from "./Navigation.jsx"
 
-import "./../../assets/css/Header.css"
+import "./../../assets/css/structure/Header.css"
 
 
 function Header (){
