@@ -5,7 +5,7 @@ import Footer from "../structure/Footer";
 import "./../../assets/css/pages/Home.css"
 
 import Logo from "../structure/Logo";
-import Logo from "../elements/Index";
+import Index from "../elements/Index";
 
 function Home (){
 
@@ -42,7 +42,7 @@ function Home (){
                             <h4>CapturaCO2</h4>
                                 <h5>Patents</h5>
                                 <h5>Pilot plants</h5>
-                        <h3>University of Huelva studies</h3>
+                        <h3 id="sample">University of Huelva studies</h3>
 
                 {/* 
                 Logo  X
